@@ -18,6 +18,7 @@ using namespace std;
 // A BTree node
 class BTreeNode
 {
+
     int *keys;  // An array of keys
     int t;      // Minimum degree (defines the range for number of keys)
     BTreeNode **C; // An array of child pointers
@@ -614,7 +615,8 @@ void BTree::remove(int k)
     return;
 }
  
-// Driver program to test above functions
+// Here's where you're going to be doing stuff.
+
 int main()
 {
     BTree t(3); // A B-Tree with minium degree 3
